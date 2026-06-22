@@ -1,18 +1,16 @@
 public class checkPrime {
     public static void main(String[] args) {
 
-        for (int j = 2; j <= 1000; j++) {
+        for(int i=2;i<=100;i++){
             boolean isPrime = true;
-
-            for (int i = 2; i <= Math.sqrt(j); i++) {
-                if (j % i == 0) {
+            for(int j=2; j<=Math.sqrt(i); j++){
+                if( i % j == 0){
                     isPrime = false;
                     break;
                 }
             }
-
-            if (isPrime) {
-                System.out.println(j);
+            if(isPrime){
+                System.out.println(i);
             }
         }
     }
