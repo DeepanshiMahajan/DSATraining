@@ -1,15 +1,17 @@
+import java.util.Scanner;
+
 public class count {
  public static void main(String[] args) {
-    int num = 43215;
+  Scanner sc = new Scanner(System.in);
+  System.out.print("Enter no :");
+  int n = sc.nextInt();
+  int count =0;
 
-    int count = 0;
-
-        while (num > 0) {
-            num = num / 10;
-            count++;
-        }
-
-        System.out.println(count);
+  while(n > 0){
+    n = n/10;
+    count++;
+  }
+  System.out.println("No of digit in no: "+count);
     }
 }
 
