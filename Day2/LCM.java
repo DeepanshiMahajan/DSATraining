@@ -10,8 +10,8 @@ public class LCM {
             }
         }
 
-        // Find LCM
-        int lcm = (a * b) / hcf;
+        //LCM
+        int lcm = (a * b) /hcf ;
 
         System.out.println("HCF = " + hcf);
         System.out.println("LCM = " + lcm);
