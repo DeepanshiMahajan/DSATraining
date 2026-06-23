@@ -10,7 +10,7 @@ public class bostonNo {
     }
 
     public static void main(String[] args) {
-        int n = 378;
+        int n = 121;
         int temp = n;
 
         int sumDigits = digitSum(n);
