@@ -4,9 +4,9 @@ public class sum {
     public static void main(String[] args) {
         int arr[] = {0, 1, 5, 1, 3};
 
-        int sumOfArr = 0;
+        int sumOfArr = arr[0];
 
-        for (int i = 0; i < arr.length; i++) {
+        for (int i = 1; i < arr.length; i++) {
             sumOfArr += arr[i];
         }
 
